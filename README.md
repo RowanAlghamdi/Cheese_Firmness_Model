@@ -168,9 +168,9 @@ figure_dict
 ```
 
 
-<p align="center" width="100%"> <img width="70%" src="/plots/plot1.svg"> 
-<p align="center" width="100%"> <img width="70%" src="/plots/plot2.svg">  
-<p align="center" width="100%"> <img width="70%" src="/plots/plot3.svg"> 
+<p align="center" width="100%"> <img width="70%" src="/plots/plot1.png"> 
+<p align="center" width="100%"> <img width="70%" src="/plots/plot2.png">  
+<p align="center" width="100%"> <img width="70%" src="/plots/plot3.png"> 
     
     
 The first visualization clearly shows that the target classes are not balanced based on distribution variations. The moisture content of hard and firm cheeses is extremely low. Fresh and soft have extremely high moisture levels. 
@@ -468,7 +468,7 @@ depth_search_plot = (
 )
 depth_search_plot
 ```
-<p align="center" width="100%"> <img width="70%" src="/plots/plot4.svg"> 
+<p align="center" width="100%"> <img width="70%" src="/plots/plot4.png"> 
   
 We can see that both scores are harmonious with a slight increase between 300 and 350. The graph is consistent with our best parameters results.
 
@@ -481,7 +481,7 @@ plot_confusion_matrix(depth_search, X_test, y_test, ax=ax, normalize="all", cmap
 plt.title("Confusion matrix")
 plt.show()
   ```
-<p align="center" width="100%"> <img width="70%" src="/plots/plot5.svg"> 
+<p align="center" width="100%"> <img width="70%" src="/plots/plot5.png"> 
   
  ```
 # Printing classification report
